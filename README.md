@@ -111,7 +111,7 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-- [Anna Clara](https://github.com/annasilvas)
+- [Anna Clara](https://github.com/annasilvas) Estrutura dos códigos e auxílio juntamente com o Vinicius Brandão.
 - [Stela Camargo](https://github.com/StelaCamargo)  Adiciona seção de organização do repositório.
 - [Pedro Miranda](https://github.com/PedroMR364)
 - [Vinícius Brandão](https://github.com/brandao-vini) Desenvolveu as Telas com a ajuda da Anna Clara.
