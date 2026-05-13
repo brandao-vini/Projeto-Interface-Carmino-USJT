@@ -7,6 +7,30 @@
 
 Este projeto consiste na reconstrução fiel de interfaces web a partir de wireframes estáticos, com foco em demonstrar proficiência em HTML5 semântico e CSS moderno. A implementação segue rigorosamente a metodologia mobile-first, utilizando Flexbox e Grid para garantir um layout responsivo e acessível em dispositivos de 320px a 1440px. Além disso, o desenvolvimento prioriza as boas práticas de acessibilidade (WCAG AA), como o uso de variáveis CSS para escalas tipográficas consistentes e a garantia de contraste adequado para uma melhor experiência do usuário.
 
+
+
+## 🖥️ Telas Implementadas
+
+| Arquivo | Tela | Descrição |
+| :--- | :--- | :--- |
+| `index.html` | Home | Navegue por tópicos de interesse  |
+| `listagem.html` | Categoria: Techno | Listagem de posts por categoria  |
+| `destaques.html` | Destaques | Visualização dos posts em destaque |
+| `assinar.html` | Assinar | Inscrição na newsletter |
+| `busca.html` | Resultados | Resultados da pesquisa no site |
+| `entrar.html` | Login | Acesso à conta do usuário |
+| `cadastro.html` | Criar Conta | Cadastro de novos usuários no sistema |
+| `perfil.html` | Perfil | Visualização de dados e postagens do usuário logado |
+| `admin-categorias.html` | Admin: Categorias | Gerenciamento de tópicos |
+| `admin-criar-post.html` | Admin: Criar Post | Interface de criação de conteúdo |
+| `admin-escolhas.html` | Admin: Escolhas | Gestão das escolhas do editor |
+| `admin-usuarios.html` | Admin: Usuários | Controle de usuários do sistema |
+| `admin-revisao.html` | Admin: Revisão | Fila de aprovação de postagens |
+| `admin-comentarios.html` | Admin: Comentários | Moderação de comentários |
+
+---
+
+
 # Decisões de Layout
 
 - CSS Grid para o grid de postagens (1 → 2 → 3 colunas conforme a tela cresce) e para o layout admin (sidebar + conteúdo).
