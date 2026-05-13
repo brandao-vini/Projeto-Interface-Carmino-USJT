@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HABIT – Início</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Google Fonts: Lato (sans) + source legível -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" role="banner">
+    <div class="wrapper">
+      <a href="index.html" class="site-logo" aria-label="HABIT – Página inicial">HABIT</a>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="destaques.html">Páginas</a>
+        <a href="destaques.html">Destaques</a>
+        <a href="assinar.html">Assinar</a>
+        <a href="admin-categorias.html" class="nav-admin">Admin</a>
+      </nav>
+      <div class="header-search">
+        <label for="busca-header" class="sr-only">Buscar</label>
+        <input
+          type="search"
+          id="busca-header"
+          name="q"
+          placeholder="Buscar..."
+          aria-label="Campo de busca"
+        />
+        <a href="busca.html" class="btn btn-outline btn-sm">Buscar</a>
+        <a href="entrar.html" class="btn btn-outline btn-sm">Entrar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== CONTEÚDO PRINCIPAL ===================== -->
+  <main id="conteudo-principal">
+    <div class="wrapper">
+
+      <!-- Hero Section -->
+      <section class="content-card" aria-labelledby="hero-titulo">
+        <div style="display:grid; grid-template-columns:1fr 220px; gap:var(--space-xl); align-items:center;">
+          <div>
+            <h1 id="hero-titulo">Navegue por tópicos de interesse</h1>
+            <p class="text-muted mb-md">
+              Descubra conteúdos por categorias, posts em destaque e as escolhas do editor.
+            </p>
+            <div class="flex gap-sm">
+              <a href="listagem.html" class="btn btn-primary">Explorar categorias</a>
+              <a href="assinar.html" class="btn btn-outline">Assine a newsletter</a>
+            </div>
+          </div>
+          <!-- Placeholder da imagem hero -->
+          <div
+            style="background:var(--color-card-bg);border-radius:var(--radius-md);height:160px;"
+            role="img"
+            aria-label="Imagem ilustrativa do site HABIT"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Categorias Populares -->
+      <section aria-labelledby="categorias-populares">
+        <h2 id="categorias-populares" class="mb-md">Categorias Populares</h2>
+        <div class="content-card" style="padding:0;overflow:hidden;">
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);">
+
+            <article style="padding:var(--space-md);border-right:1px solid var(--color-border);">
+              <div
+                style="background:var(--color-card-bg);border-radius:var(--radius-sm);height:100px;margin-bottom:var(--space-md);"
+                role="img"
+                aria-label="Imagem da categoria Work"
+              ></div>
+              <h3>
+                <a href="listagem.html" style="color:var(--color-text);text-decoration:none;">Work</a>
+              </h3>
+            </article>
+
+            <article style="padding:var(--space-md);border-right:1px solid var(--color-border);">
+              <div
+                style="background:var(--color-card-bg);border-radius:var(--radius-sm);height:100px;margin-bottom:var(--space-md);"
+                role="img"
+                aria-label="Imagem da categoria Books"
+              ></div>
+              <h3>
+                <a href="listagem.html" style="color:var(--color-text);text-decoration:none;">Books</a>
+              </h3>
+            </article>
+
+            <article style="padding:var(--space-md);">
+              <div
+                style="background:var(--color-card-bg);border-radius:var(--radius-sm);height:100px;margin-bottom:var(--space-md);"
+                role="img"
+                aria-label="Imagem da categoria Techno"
+              ></div>
+              <h3>
+                <a href="listagem.html" style="color:var(--color-text);text-decoration:none;">Techno</a>
+              </h3>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Todas as Categorias -->
+      <section aria-labelledby="todas-categorias" class="mb-lg">
+        <h2 id="todas-categorias" class="mb-md">Todas as Categorias</h2>
+        <nav aria-label="Lista de todas as categorias">
+          <div style="display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--color-border);border-radius:var(--radius-md);overflow:hidden;background:var(--color-bg-white);">
+            <a href="listagem.html" class="tag" style="border:none;border-right:1px solid var(--color-border);border-bottom:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Negócios</a>
+            <a href="listagem.html" class="tag" style="border:none;border-right:1px solid var(--color-border);border-bottom:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Techno</a>
+            <a href="listagem.html" class="tag" style="border:none;border-right:1px solid var(--color-border);border-bottom:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Produtividade</a>
+            <a href="listagem.html" class="tag" style="border:none;border-right:1px solid var(--color-border);border-bottom:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Filmes</a>
+            <a href="listagem.html" class="tag" style="border:none;border-bottom:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Lifestyle</a>
+            <a href="listagem.html" class="tag" style="border:none;border-right:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Educação</a>
+            <a href="listagem.html" class="tag" style="border:none;border-right:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Mailing</a>
+            <a href="listagem.html" class="tag" style="border:none;border-right:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">eCommerce</a>
+            <a href="listagem.html" class="tag" style="border:none;border-right:1px solid var(--color-border);padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Alimentação</a>
+            <a href="listagem.html" class="tag" style="border:none;padding:var(--space-md);border-radius:0;font-size:var(--text-sm);color:var(--color-text);">Social</a>
+          </div>
+        </nav>
+      </section>
+
+      <!-- Postagens em Destaque + Escolhas do Editor -->
+      <section aria-labelledby="postagens-destaque">
+        <div style="display:grid;grid-template-columns:1fr 220px;gap:var(--space-lg);align-items:start;">
+
+          <!-- Postagens -->
+          <div>
+            <h2 id="postagens-destaque" class="mb-md">Postagens em Destaque</h2>
+            <div style="background:var(--color-bg-white);border:1px solid var(--color-border);border-radius:var(--radius-md);overflow:hidden;">
+
+              <article style="display:flex;gap:var(--space-md);padding:var(--space-md);border-bottom:1px solid var(--color-border);">
+                <div
+                  style="background:var(--color-card-bg);width:80px;height:64px;border-radius:var(--radius-sm);flex-shrink:0;"
+                  role="img"
+                  aria-label="Imagem do post: Erros de Design que Todos Devem Evitar"
+                ></div>
+                <div>
+                  <p class="text-xs" style="color:var(--color-secondary);margin-bottom:2px;">31 Jul 2025 • Destaque</p>
+                  <h3 style="font-size:var(--text-base);margin-bottom:var(--space-xs);">
+                    <a href="#" style="color:var(--color-text);text-decoration:none;">
+                      Erros de Design que Todos Devem Evitar
+                    </a>
+                  </h3>
+                  <p class="text-xs text-muted">3 min de leitura</p>
+                </div>
+              </article>
+
+              <article style="display:flex;gap:var(--space-md);padding:var(--space-md);">
+                <div
+                  style="background:var(--color-card-bg);width:80px;height:64px;border-radius:var(--radius-sm);flex-shrink:0;"
+                  role="img"
+                  aria-label="Imagem do post: As Maiores Empresas por Receita"
+                ></div>
+                <div>
+                  <p class="text-xs" style="color:var(--color-secondary);margin-bottom:2px;">31 Jul 2025 • Destaque</p>
+                  <h3 style="font-size:var(--text-base);margin-bottom:var(--space-xs);">
+                    <a href="#" style="color:var(--color-text);text-decoration:none;">
+                      As Maiores Empresas por Receita
+                    </a>
+                  </h3>
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+          <!-- Escolhas do Editor -->
+          <aside aria-labelledby="escolhas-editor">
+            <h2 id="escolhas-editor" class="mb-md">Escolhas do Editor</h2>
+            <div style="background:var(--color-bg-white);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:var(--space-md);">
+              <ul style="list-style:disc;padding-left:var(--space-lg);display:flex;flex-direction:column;gap:var(--space-xs);">
+                <li><a href="#" class="text-sm">O uso negativo da internet</a></li>
+                <li><a href="#" class="text-sm">O segredo do brainstorm</a></li>
+                <li><a href="#" class="text-sm">Escalar para pequenos negócios</a></li>
+                <li><a href="#" class="text-sm">O futuro do trabalho remoto</a></li>
+              </ul>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+
+    </div><!-- /wrapper -->
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <nav class="footer-links" aria-label="Links do rodapé">
+      <a href="#">Instagram</a>
+      <a href="#">Work</a>
+      <a href="#">Bags</a>
+      <a href="#">Lamp</a>
+      <a href="#">Books</a>
+    </nav>
+    <p class="footer-copy">© 2026 Habit • <a href="#">Habit 2026</a></p>
+  </footer>
+
+</body>
+</html>

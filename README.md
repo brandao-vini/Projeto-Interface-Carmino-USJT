@@ -1,7 +1,7 @@
 # Projeto Interfaces - José Carmino
 
 
-![Capa do Projeto](https://picsum.photos/850/280)
+![alt text](/assets/img/image.png)
 
 # Sobre o Projeto
 
