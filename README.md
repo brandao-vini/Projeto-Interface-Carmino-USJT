@@ -112,7 +112,7 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 # Autores
 
 - [Anna Clara](https://github.com/annasilvas)
-- [Stela Camargo](https://github.com/StelaCamargo)
+- [Stela Camargo](https://github.com/StelaCamargo) Adiciona seção de organização do repositório.
 - [Pedro Miranda](https://github.com/PedroMR364)
 - [Vinícius Brandão](https://github.com/brandao-vini)
 
